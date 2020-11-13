@@ -23,6 +23,11 @@ h2 {
   text-decoration: none;
 }
 
+.title {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
 .logo {
   width: 64px;
 }
@@ -65,4 +70,12 @@ h2 {
   width: 320px;
 
   border: 0;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .title {
+    margin: 0;
+  }
+
 }
